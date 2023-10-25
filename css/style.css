@@ -1,0 +1,42 @@
+/* Whitespace waar je mee begint wegwerken en de box sizing goed zetten. */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/* Tekstkleur (Pumpkin) Background (Night) Halloween Thema */
+body {
+  background-color: #01110a;
+  color: #ff8c42;
+}
+/* Navbar die simpel links staat */
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  margin-left: 4rem;
+}
+nav a {
+  color: #ff8c42;
+  text-decoration: none;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.left {
+  width: 50%;
+}
+.left h1 {
+  padding: 1rem 0rem;
+}
+.left p {
+  width: 75%;
+}
