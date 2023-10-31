@@ -114,6 +114,9 @@ nav a {
     flex-direction: column;
     height: 120vh;
   }
+  .about{
+    height: 45vh;
+  }
   .left{
     display: flex;
     flex-direction: column;
