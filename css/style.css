@@ -103,9 +103,13 @@ nav a {
  }
 
  @media (max-width: 1150px) {
+  body{
+    overflow-x: hidden;
+  }
   nav{
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
   }
   nav a{
     margin: 1rem 0rem;
@@ -113,10 +117,12 @@ nav a {
   .hero{
     flex-direction: column;
     height: 120vh;
+    overflow: hidden;
   }
   .about{
     height: 45vh;
     margin-bottom: 1rem;
+    overflow: hidden;
   }
   .left{
     display: flex;
@@ -134,6 +140,7 @@ nav a {
   .cards{
     flex-direction: column;
     height: 150vh;
+    overflow: hidden;
   }
   .cards img{
     height: 50%;
