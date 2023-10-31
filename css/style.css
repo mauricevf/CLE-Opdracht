@@ -116,6 +116,7 @@ nav a {
   }
   .about{
     height: 45vh;
+    margin-bottom: 1rem;
   }
   .left{
     display: flex;
